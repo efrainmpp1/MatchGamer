@@ -7,4 +7,7 @@ module.exports = {
     port: 5432,
     dialect: "postgres",
     logging: true,
+    define :{
+        timestamps: true,
+    }
 }
