@@ -7,5 +7,9 @@ routes.get('/' , (req,res) => {
 })
 
 routes.get('/users' , UserControllers.readAll)
+routes.get('/user/:id' , UserControllers.readOne)
+routes.post('/users' , UserControllers.cadastrar)
+routes.put('/user/:id' , UserControllers.update)
+routes.delete('/user/:id' , UserControllers.delete)
 
 module.exports = routes
