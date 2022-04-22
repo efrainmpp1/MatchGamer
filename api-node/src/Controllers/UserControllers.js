@@ -1,4 +1,3 @@
-const { update } = require("../Models/User")
 const User = require("../Models/User")
 const {v4} = require("uuid")
 const {hash, compare} = require("bcrypt")
