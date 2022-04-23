@@ -22,7 +22,7 @@ module.exports = {
       sobre:{
         type: Sequelize.STRING
       },
-      platormas:{
+      plataformas:{
         type: Sequelize.STRING,
         allowNull: false
       },
