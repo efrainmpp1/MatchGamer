@@ -36,6 +36,64 @@
 	text-align: left;
 	text-decoration: underline;
 }
+
+#inicial{
+	background-image: url(./imagens/Background-inicial.png);
+	background-repeat: no-repeat;
+}
+
+#button{
+	width: 50px;
+	height: 50px;
+}
+
+#img{
+	height: 300px;
+	width: 310px;
+	border: 1px solid black;
+}
+
+#nome{
+	text-align: left;
+	color: #fafafa;
+    margin-top: 70px;
+    font-size: 2.3em;
+    font-family: "Montserrat";
+}
+
+#resumo{
+	background-color: white;
+	text-align: center;
+	padding: 2em;
+	min-width: 600px;
+    background-color: #F5F9FA;
+}
+
+#titulo{
+    font-family: 'Arboria-Bold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #010424;
+}
+
+#row-imagens{
+	min-width: 415px;
+}
+
+#text1 {
+    font-family: "Arboria-Bold";
+    font-size: 42px;
+    color: #010424;
+    text-align: center;
+}
+#background_erro{
+    background-color: #fafafa;
+}
 .bemvindo {
 	margin-left: 0px;
 	padding-left: 0px;
@@ -110,10 +168,11 @@
 }
 .formlogin {
 	background-color: #00428F;
-	padding-top: 30px;
+	padding-top: 20px;
 	margin-top: 50px;
 	border-radius: 20px;
 	margin-bottom: 20px;
+	padding-bottom: 30px;
 }
 .login1{
 	margin-top: 2em;
@@ -121,67 +180,6 @@
 	min-width: 576px;
 	margin-left: 0px;
 	padding-left: 0px;
-}
-
-#inicial{
-	background-image: url(./imagens/Background-inicial.png);
-	background-repeat: no-repeat;
-}
-
-#button{
-	width: 50px;
-	height: 50px;
-}
-
-#img{
-	height: 300px;
-	width: 310px;
-	border: 1px solid black;
-}
-
-#nome{
-	text-align: left;
-	color: #fafafa;
-    margin-top: 70px;
-    font-size: 2.3em;
-    font-family: "Montserrat";
-}
-
-#resumo{
-	background-color: white;
-	text-align: center;
-	padding: 2em;
-	min-width: 600px;
-    background-color: #F5F9FA;
-}
-
-#titulo{
-    font-family: 'Arboria-Bold';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: #010424;
-}
-
-#row-imagens{
-	min-width: 415px;
-}
-
-#text1 {
-    font-family: "Arboria-Bold";
-    font-size: 42px;
-    color: #010424;
-    text-align: center;
-}
-#background_erro{
-    background-color: #fafafa;
-}
-.teste{
-    text-align: center;
 }
 
 .img2{
