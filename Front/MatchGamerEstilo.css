@@ -4,10 +4,128 @@
     font-family: 'Arboria-Bold';
     src: url('Arboria-Bold.ttf') format('opentype');
 }
-#quad{
-	padding: 1em;
-	width: 200px;
-	height: 200px;
+
+#bemvindo {
+	margin-left: 0px;
+	margin-top: 50px;
+	font-family: 'Arboria-Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 75px;
+	line-height: 94px;
+	letter-spacing: 0.03em;
+	color: rgba(250, 250, 250, 0.9);
+	writing-mode: vertical-rl;
+}
+#Logintitle {
+	font-family: 'Arboria-Bold';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 46px;
+	color: #FAFAFA;
+	text-align: center;
+}
+#alterarsenha{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 34px;
+	color: #FAFAFA;
+	text-align: left;
+	text-decoration: underline;
+}
+.bemvindo {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.backgroundLogin {
+	background-image: url("./imagens/fundoLogin.png");
+	background-repeat: no-repeat;
+}
+.form-floating{
+	position: relative;
+}
+.form-floating>Label{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+.form-floating>.form-control {
+    padding: 1rem 0.75rem;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-floating>.form-control, .form-floating>.form-select {
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+}
+.w-100{
+	margin-top: 10px; 
+	text-decoration-color: #010424;
+	font-family: "Arboria-Bold";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	text-transform: uppercase;
+}
+.w-100:hover{
+	text-decoration-color: #fafafa;
+	color: #010424;
+}
+.form-control{
+	margin-top: 10px;
+	display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-signin{
+	width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.formlogin {
+	background-color: #00428F;
+	padding-top: 30px;
+	margin-top: 50px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.login1{
+	margin-top: 2em;
+	padding: 2em;
+	min-width: 576px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#inicial{
+	background-image: url(./imagens/Background-inicial.png);
+	background-repeat: no-repeat;
 }
 
 #button{
@@ -76,30 +194,34 @@
 	padding: 2em;
 	height: 600px;
 	min-width: 576px;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 .feature {
-    margin: 1em;
     text-align: center;
     font-family: "Montserrat";
 }
 .navbar-nav .nav-item .nav-link {
-	font-family: 'Arboria-Book';
+	font-family: 'Arboria-Bold';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     margin-right: 30px;
     /* identical to box height */
     color: #010424;
 }
-
+.nav-item{
+	text-transform: uppercase;
+}
 .navbar-nav .nav-item .nav-link:hover{
 	color: #00428F;
 }
 
 .nav-link{
 	font-family: "Montserrat";
-	font-size: 20px;
+	font-size: 14px;
+	color: #010424;
 }
 
 .navbar-collapse{
@@ -107,21 +229,17 @@
 	justify-content: flex-end !important;
 }
 
+.background{
+	background-image: url(./imagens/Background-inicial.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 
+}
 .navbar{
 	background-color:#F5F9FA;
     box-shadow: 1px 1px 5px black;
-}
-
-.botao {
-	text-transform: uppercase;
-	font-family: "Baloo Chettan";
-	font-size: 30px;
-	letter-spacing: 1px;
-	height: 400px;
-	width: 400px;
-	text-align: left;
-	padding-top: 1em;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 .btn-dark:active, .btn-dark:hover {
@@ -152,9 +270,7 @@
 .row{
 	padding: 2em;
 }
-.background{
-    background-image: url(./imagens/Background-inicial.png);
-}
+
 body{
 	padding: 2px !important;
     background-color: #F5F9FA;
@@ -167,7 +283,7 @@ li{
 }
 
 label, h3{
-	color: white;
+	color: #010424;
 	font-family: "Montserrat";
 }
 
