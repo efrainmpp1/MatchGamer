@@ -13,6 +13,8 @@ routes.post('/users' , UserControllers.cadastrar)
 routes.put('/user/:id' , UserControllers.update)
 routes.delete('/user/:id' , UserControllers.delete)
 
+routes.post('/login' , UserControllers.login)
+
 routes.get('/games' , GamesControllers.readAll)
 routes.get('/games/:id' , GamesControllers.readOne)
 routes.post('/games',GamesControllers.cadastrar)

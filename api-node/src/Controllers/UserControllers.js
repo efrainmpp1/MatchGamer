@@ -1,6 +1,9 @@
 const User = require("../Models/User")
+const UserServices = require("../Services/UserServices")
 const {v4} = require("uuid")
 const {hash, compare} = require("bcrypt")
+const jwt = require("jsonwebtoken")
+const SECRET_KEY = 'chave_secreta_inicial' //Futuramente dentro de um arquivo .env
 
 module.exports = {
   async readAll(req,res){
@@ -69,5 +72,35 @@ module.exports = {
         mensagem: "Não foi possivel deletar o Usuário"
       })
     })
+  },
+  async login(req,res){
+    const {username,password} = req.body
+    if(!username || !password){
+      return res.status(400).json({
+        erro: true,
+        mensagem: "username ou senha não podem estar vazios"
+      })
+    }
+    if(!UserServices.usernameExists(username)){
+      return res.status(404).json({
+        erro: true,
+        mensagem: "username ou senha incorretos"
+      })
+    }
+    const user = await User.findOne({where: {username: username}})
+    if(await compare(password,user.password)){
+      const token = jwt.sign({id_user:user.id} , SECRET_KEY , {expiresIn:300})
+      return res.status(200).json({
+        erro: false,
+        mensagem: "Usuário Logado com sucesso",
+        token
+      })
+    }
+    else{
+      return res.status(404).json({
+        erro: true,
+        mensagem: "username ou senha incorretos"
+      })
+    }
   }
 }
