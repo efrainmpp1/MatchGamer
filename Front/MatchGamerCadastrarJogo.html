@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MatchGamer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Feito com dedicação visando o futuro!">
+	<meta name="author" content="Fernando Lucas">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<link type="text/css" href="MatchGamerEstilo.css" rel="stylesheet">
+	<link rel="icon" href="./imagens/icone_nav.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>    
+</head>
+<body id="backLogin">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container-fluid">
+			<a class="nav-link" id="titulo">MatchGamer</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#quebra-pagina" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">   
+                    <i class="fas fa-bars" style="color:black; size: 30px;"></i>
+                </span>
+			</button>
+			<div class="collapse navbar-collapse" id="quebra-pagina">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="./MatchGamererro.html" class="nav-link">Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a href="./MatchGamererro.html" class="nav-link">Jogos</a>
+					</li>
+                    <li class="nav-item">
+						<a href="./MatchGamererro.html" class="nav-link">Amigos</a>
+					</li>
+                    <li class="nav-item">
+						<a href="./MatchGamererro.html" class="nav-link">Grupos</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+    <div class="container-fluid backgroundLogin">
+        <div class="container-fluid">
+            <div class="row login1">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 bemvindo">
+                    <p id="bemvindo">Jogos</p>
+                </div>	
+                <div class="col-12 col-sm-12 col-md-4 col-lg-12 col-xl-4 formlogin"> 
+                    <main class="form-signin">
+                        <form>             
+                            <p id="Logintitle">Cadastro</p>
+                            <div class="form-floating">
+                                <input type="nome" class="form-control" id="floatingInput" placeholder="Nome">
+                                <label for="floatingInput">Nome do Jogo</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="type" class="form-control" id="floatingInput" placeholder="Aventura, Guerra">
+                                <label for="floatingInput">Tipo de Jogo</label>
+                            </div>
+                            <p id="labelPlataforma">Plataforma Compatível</p>
+                            <div id="check" class="g-4 row-cols-1 row-cols-lg-4">
+                                <div class="feature col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          PC
+                                        </label> 
+                                    </div>
+                                </div>
+                                <div class="feature col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Xbox
+                                        </label> 
+                                    </div>
+                                </div>
+                                <div class="feature col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                          Mobile
+                                        </label> 
+                                    </div>
+                                </div>
+                                <div class="feature col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Playstation
+                                        </label> 
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-light btn-md w-100" type="submit">Cadastrar</button>
+                        </form>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">MatchGamer © 2022</p>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item">
+                    <a href="./MatchGamererro.html" class="nav-link">Suporte</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./MatchGamererro.html" class="nav-link">Contatos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./MatchGamererro.html" class="nav-link">Políticas</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
