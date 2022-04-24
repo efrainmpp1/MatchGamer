@@ -3,6 +3,9 @@ Repositório destinado para o Projeto  Match Gamer da disciplina Projeto e Engen
 Aqui estarão contidos as etapas de desenvolvimento do projeto explicando a jornada do grupo com a metodologia
 SCRUM para construir o trabalho.
 
+# Planejamento e Modelos 
+Para nos planejarmos durante as Sprints, estamos utilizando da ferramenta Trello que nos permite gerenciar o caminhar da realização das atividades e ver as dificuldades a respeito [(Link do Trello)](https://trello.com/b/pSeF0hEv/projeto-engenharia-de-software).Para organizarmos a interface do frontend da nossa aplicação, utilizamos da ferramenta Figma, que contem os modelos das telas que serão programadas no front [(Link do Figma)](https://www.figma.com/file/oAfgqMiW6tff8PZg8vuzUb/Projeto-MatchGamer?node-id=0%3A1).
+
 # Histórias de Usuário
 - Enquanto jogador, eu gostaria de poder cadastrar uma conta e poder me logar nela
 - Enquanto jogador, eu gostaria de listar os potenciais usuários públicos que poderiam, em um dado momento, jogar um jogo específico comigo
