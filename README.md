@@ -13,7 +13,7 @@ SCRUM para construir o trabalho.
 # Sprint 1 (08/04 - 25/04) 
 
 ### Atividades
-- Projeto aderir e empregar o uso correto do SCRUM
+- Aderir e empregar ao Projeto o uso correto do SCRUM
 - Detalhar as Histórias de Usuário, incluindo indagações ao PO
 - Apresentação de primeiro protótipo contemplando pelo menos 2 Histórias de Usuário
 - Relatar os problemas enfrentados e como foram mitigados
@@ -21,7 +21,7 @@ SCRUM para construir o trabalho.
 
 ### Histórias de Usuário Escolhidas
   Para essa primeira Sprint, as duas Histórias de Usuário escolhidas foram:
-     
+
 ### Problemas enfrentados pela equipe
 - Encontrar uma ferramenta/tecnologia que os componentes do grupo se sentissem a vontade
 de trabalhar
