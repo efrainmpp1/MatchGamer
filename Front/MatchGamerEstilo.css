@@ -94,17 +94,7 @@
 #background_erro{
     background-color: #fafafa;
 }
-#labelPlataforma{
-	font-family: "Arboria-Bold";
-    font-size: 16px;
-    color: #fafafa;
-    text-align: left;
-	padding-top: 5px;
-	margin-bottom: 2px;
-}
-#check{
-	padding: 0;
-}
+
 .form-check-label{
 	padding-top: 0;
 	color: #FAFAFA;
