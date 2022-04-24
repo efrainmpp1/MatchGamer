@@ -1,6 +1,6 @@
 # MatchGamer
 Repositório destinado para o Projeto  Match Gamer da disciplina Projeto e Engenharia de Software.
-Estarão contidos as etapas de desenvolvimento do projeto explicando a jornada do grupo com a metodologia
+Aqui estarão contidos as etapas de desenvolvimento do projeto explicando a jornada do grupo com a metodologia
 SCRUM para construir o trabalho.
 
 # Histórias de Usuário
@@ -13,12 +13,13 @@ SCRUM para construir o trabalho.
 
 # Sprint 1 (08/04 - 25/04) 
 
-### Atividades
+### Backlog (Atividades)
 - Aderir e empregar ao Projeto o uso correto do SCRUM
 - Detalhar as Histórias de Usuário, incluindo indagações ao PO
 - Apresentação de primeiro protótipo contemplando pelo menos 2 Histórias de Usuário
 - Relatar os problemas enfrentados e como foram mitigados
-- Levantar os riscos observados para Sprint 2
+- Levantar os riscos observados para a Sprint 2
+- Realizar Planning Poker para a Sprint 2
 
 ### Histórias de Usuário Escolhidas
 Para essa primeira Sprint, as duas Histórias de Usuário escolhidas foram:
@@ -30,4 +31,5 @@ Para essa primeira Sprint, as duas Histórias de Usuário escolhidas foram:
 de trabalhar
 - Pelo framework React tinha muita coisa a ser aprendida, então optamos por utilizar só 
 de html,css e javascript
+
 ### Riscos para a Sprint 2
