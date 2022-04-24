@@ -4,6 +4,7 @@ Estarão contidos as etapas de desenvolvimento do projeto explicando a jornada d
 SCRUM para construir o trabalho.
 
 # Histórias de Usuário
+- Enquanto jogador, eu gostaria de poder cadastrar uma conta e poder me logar nela
 - Enquanto jogador, eu gostaria de listar os potenciais usuários públicos que poderiam, em um dado momento, jogar um jogo específico comigo
 - Enquanto jogador, eu gostaria de ser capaz de cadastrar os jogos que tenho interesse em jogar online com outras pessoas
 - Enquanto jogador, eu gostaria de criar um grupo privado de amigos
@@ -20,7 +21,9 @@ SCRUM para construir o trabalho.
 - Levantar os riscos observados para Sprint 2
 
 ### Histórias de Usuário Escolhidas
-  Para essa primeira Sprint, as duas Histórias de Usuário escolhidas foram:
+Para essa primeira Sprint, as duas Histórias de Usuário escolhidas foram:
+- Enquanto jogador, eu gostaria de poder cadastrar uma conta e poder me logar nela
+- Enquanto jogador, eu gostaria de ser capaz de cadastrar os jogos que tenho interesse em jogar online com outras pessoas
 
 ### Problemas enfrentados pela equipe
 - Encontrar uma ferramenta/tecnologia que os componentes do grupo se sentissem a vontade
