@@ -123,3 +123,4 @@ de html,css e javascript
 - Organizar bem a divisão das USs em tasks que fossem de fato direcionadas
 
 ### Riscos para a Sprint 2
+- Alguns membros da equipe não tem conhecimento da stack de tecnologias que estão sendo utilizadas, o que pode atrasar a Sprint 2, já que demandará um tempo maior de dedicação aos estudos dessas tecnologias
