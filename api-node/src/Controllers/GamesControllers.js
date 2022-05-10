@@ -1,10 +1,12 @@
 const Game = require("../Models/Game")
 
 module.exports = {
+  //Todos os Jogos presentes no Banco de Dados
   async readAll(req,res){
     const games = await Game.findAll()
     return res.status(200).json({games})
   },
+  //Buscar um Jogo pelo ID
   async readOne(req,res){
     const id = req.params.id
     const game = await Game.findByPk(id)
@@ -13,6 +15,16 @@ module.exports = {
       mensagem: "O jogo pesquisado não existe"
     })
   },
+  //Buscar um jogo pelo titulo do jogo
+  async readOneByName(req,res){
+    const tittle = req.params.tittle
+    const game = await Game.findOne({where:{tittle}})
+    return game ? res.status(200).json(game) : res.status(400).json({
+      erro:true,
+      mensagem: "O jogo pesquisado não existe"
+    })
+  },
+  //Cadastrar um jogo no Banco de Dados da comunidade
   async cadastrar(req,res){
     const {tittle , genero , sobre , plataformas} = req.body
     const newGame = await Game.create({
@@ -33,6 +45,7 @@ module.exports = {
       })
     })
   },
+  //Dar Update dos dados de algum jogo
   async update(req,res){
     const id =  req.params.id
     const data = req.body
