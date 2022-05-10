@@ -8,7 +8,9 @@ const connection = new Sequelize(db_config)
 connection.authenticate()
 .then(() => {
   User.init(connection)
+  User.associate(connection.models)
   Game.init(connection)
+  Game.associate(connection.models)
   console.log("Conexão com DB realizada com sucesso")
 }).catch(() => {
   console.log("A conexão com o DB não pode ser realizada");

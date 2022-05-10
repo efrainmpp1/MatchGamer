@@ -14,6 +14,14 @@ class User extends Model {
       sequelize: connection
     })
   }
+
+  static associate(models){
+    this.belongsToMany(models.Game , {
+      foreignKey: 'user_id',
+      through: 'User_Games',
+      as: 'games'
+    })
+  }
 }
 
 module.exports = User;
