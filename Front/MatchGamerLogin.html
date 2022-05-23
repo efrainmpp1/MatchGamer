@@ -49,17 +49,18 @@
                 </div>	
                 <div class="col-12 col-sm-12 col-md-4 col-lg-12 col-xl-4 formlogin"> 
                     <main class="form-signin">
-                        <form>             
+                        <script src="login.js"></script>
+                        <form id="form" method="post">             
                             <p id="Logintitle">Faça seu Login</p>
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Nome">
-                                <label for="floatingInput">Nome de usuário...</label>
+                                <input type="email" class="form-control" id="username" placeholder="Nome">
+                                <label for="username">Nome de usuário...</label>
                             </div>
                             <div class="form-floating">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                                <label for="floatingPassword">Digite sua senha...</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                                <label for="password">Digite sua senha...</label>
                             </div>
-                            <button class="btn btn-light btn-md w-100" type="submit">Fazer Login</button>
+                            <button class="btn btn-light btn-md w-100" type="submit" id="enviar" name="enviar" onclick=login() value="Enviar">Fazer Login</button>
                             <a href="./MatchGamererro.html" id="alterarsenha">Esqueceu sua senha ou nome cadastrado?</a>
                         </form>
                     </main>

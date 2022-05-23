@@ -21,6 +21,11 @@ class User extends Model {
       through: 'User_Games',
       as: 'games'
     })
+    this.belongsToMany(models.Grupo , {
+      foreignKey: 'user_id' , 
+      through: 'UserGroups',
+      as: 'grupos'
+    })
   }
 }
 

@@ -49,21 +49,22 @@
                 </div>	
                 <div class="col-12 col-sm-12 col-md-4 col-lg-12 col-xl-4 formlogin"> 
                     <main class="form-signin">
-                        <form>             
+                        <form>
+                            <script src="./cadastro.js"></script>             
                             <p id="Logintitle">Cadastro</p>
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="email">
+                                <input type="email" class="form-control" id="email" placeholder="email">
                                 <label for="floatingInput">Digite seu email...</label>
                             </div>
                             <div class="form-floating">
-                                <input type="username" class="form-control" id="floatingInput" placeholder="Username">
+                                <input type="username" class="form-control" id="username" placeholder="Username">
                                 <label for="floatingInput">Nome de Usuário</label>
                             </div>
                             <div class="form-floating">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
                                 <label for="floatingPassword">Digite sua senha...</label>
                             </div>
-                            <button class="btn btn-light btn-md w-100" type="submit">Cadastrar</button>
+                            <button id="cadastro" class="btn btn-light btn-md w-100" type="submit" onclick= cadastrar()>Cadastrar</button>
                         </form>
                     </main>
                 </div>

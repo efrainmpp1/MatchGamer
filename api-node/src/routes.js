@@ -10,8 +10,8 @@ routes.get('/' , (req,res) => {
 routes.get('/users' , UserControllers.readAll)
 routes.get('/users/:id' , UserControllers.readOne)
 routes.post('/users' , UserControllers.cadastrar)
-routes.put('/user/:id' , UserControllers.update)
-routes.delete('/user/:id' , UserControllers.delete)
+routes.put('/users/:id' , UserControllers.update)
+routes.delete('/users/:id' , UserControllers.delete)
 
 routes.post('/login' , UserControllers.login)
 

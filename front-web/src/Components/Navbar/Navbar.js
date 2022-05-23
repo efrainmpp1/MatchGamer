@@ -4,8 +4,8 @@ import {Navbar , Nav , Container} from 'react-bootstrap'
 function NavBar() {
   return(
     <Navbar bg="dark" variant="dark" >
-      <Container>
-        <Navbar.Brand href="#home">Match Gamer</Navbar.Brand>
+      <Container fluid>
+        <Navbar.Brand href="#titulo">Match Gamer</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
